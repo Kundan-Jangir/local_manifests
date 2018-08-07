@@ -4,15 +4,6 @@
       <copyfile dest="hardware/gzosp/Android.bp" src="Android.bp"/>
   </project>
  
-  <project path="build/make" name="nosz00l/android_build_make" remote="github" revision="o2" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <project name="nosz00l/android_vendor_nitrogen" path="vendor/nitrogen" remote="github" revision="o2" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.1-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8916" />
@@ -36,8 +27,5 @@
   <project name="nosz00l/android_frameworks_av" path="frameworks/av" remote="github" revision="o2" />
   <project name="LineageOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="lineage-15.1" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/FMRadio" name="GZOSP/packages_apps_FMRadio" remote="github" revision="8.1" />
-  <project path="packages/apps/MusicX" name="CypherOS/packages_apps_MusicX" remote="github" revision="parfait-release" />
-  <project path="packages/apps/Snap" name="MiracleDROID/android_packages_apps_Snap" remote="github" revision="android-8.1" />
 </manifest>
 
